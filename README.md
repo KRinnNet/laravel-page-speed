@@ -108,6 +108,11 @@ protected $middleware = [
         <td>YES</td>
     </tr>
     <tr>
+        <td>defer_javascript</td>
+        <td>Defers the execution of javascript in the HTML</td>
+        <td>YES</td>
+    </tr>
+    <tr>
         <td>combine_css</td>
         <td>Combines multiple CSS files into one</td>
         <td>NO</td>
@@ -125,11 +130,6 @@ protected $middleware = [
     <tr>
         <td>dedup_inlined_images</td>
         <td>Replaces repeated inlined images with JavaScript that loads the data from the first instance of the image</td>
-        <td>NO</td>
-    </tr>
-    <tr>
-        <td>defer_javascript</td>
-        <td>Defers the execution of javascript in the HTML</td>
         <td>NO</td>
     </tr>
     <tr>
